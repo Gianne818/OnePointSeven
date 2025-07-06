@@ -1,16 +1,20 @@
 body {
     margin: 0;
     background-image: url("assets/collection-of-hand-drawn-graphic-tulips-floral-clip-art-elements-branches-leaves-and-buds-set-of-childish-drawings-flowers-tulips-in-outlines-flower-isolated-on-white-background-vector-2772561013.jpg");
-    background-size:auto;
+    background-size: cover;
     background-position: center;
+    font-family: "Bitcount Grid Double", system-ui;
 }
 
 #start-page {
+    min-height: 100dvh;
     font-family: "Libertinus Mono", monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color:#FCFCFC;
+    background-size: cover;
+    font-size: 16px;
 
 }
 
@@ -45,8 +49,32 @@ body {
 }
 
 #main-content {
+    margin: 15px;
+    color: #81ace4;
+    text-shadow: 1px 1px #6f3b62;
     transition: 300ms ease;
     display: none;
+}
+
+#greetings {
+    text-align: center;
+    color: #6f3b62;
+    text-shadow: 1px 1px#81ace4;
+    font-weight: 400;
+    font-size: 30px
+}
+
+#hor1 {
+    height: 2px;
+    background: #81ace4;
+    box-shadow: 2px 2px  #6f3b62;
+}
+
+#uod {
+    font-style: italic;
+    color: orange;
+    text-shadow: 1px 1px #558590;
+    padding: 10px;
 }
 
 @media (max-width: 767px){
