@@ -47,4 +47,4 @@ mainContent.addEventListener("click", event =>{
 
 uod.addEventListener("click", event =>{
     uodMusic.play();
-})
+});
